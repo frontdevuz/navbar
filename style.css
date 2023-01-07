@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+header { 
+    padding-left:12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 15px gray; 
+    color: royalblue;
+}
+h1{
+     cursor: pointer;
+}
+nav { 
+    padding-right:2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%; 
+    justify-content: space-between; 
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; 
+     
+
+}
+
+p{ 
+    cursor: pointer;
+    font-size:33px;
+    color: royalblue;  
+    display: flex;
+    align-items: center; 
+    padding-right: 10px; 
+    display: none;                                      
+}
+
+
+@media (max-width:800px) {
+    nav {
+        width: 60%;
+    }
+}
+
+@media (max-width:850px) {
+    nav {
+        width: 60%;
+    }
+} 
+
+@media (max-width:900px) {
+    nav {
+        width: 60%;
+    }
+}
+
+@media (max-width:650px) {
+    nav {
+        width: 60%;
+    }
+}
+
+@media (max-width:590px) {
+    nav {
+        width: 50%;
+    }
+}
+
+@media (max-width:650px) {
+    h1 {
+        font-size: 22px; 
+        cursor: pointer;
+    }
+} 
+
+@media (max-width:580px) {
+    h1 {
+        font-size: 22px; 
+        cursor: pointer;
+    }
+} 
+@media (max-width:620px) {
+    nav{
+        width: 70%;
+    }
+} 
+@media(max-width:574px){
+    nav{
+        display: none;
+    }
+    p{
+        display: block;
+        cursor:pointer;
+        color: royalblue;
+        padding-right:2.0px;
+    }
+} 
